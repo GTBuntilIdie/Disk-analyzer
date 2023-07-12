@@ -63,7 +63,7 @@ public class Starter extends Application {
         pane.setTop(button);
         pane.setCenter(pieChart);
 
-        stage.setScene(new Scene(pieChart, 900, 600));
+        stage.setScene(new Scene(pane, 900, 600));
         stage.show();
     }
 
